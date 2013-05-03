@@ -1,0 +1,19 @@
+/* CSS AREA - Cores e estilos pra cada área - Alexei Martchenko */
+/* MATÉRIAS */
+table{width:auto !important;}/*fiz isso para fazer overide a regra no core, pois estava estragando o layout das tabelas dentro das materias*/
+/* Cores de links */
+a, a:link, a:active, a:visited {color:#333;}
+.inter a, .inter a:link, .inter a:active, .inter a:visited {color:#00f;}
+a:hover,.inter a:hover{color:#06f;text-decoration:underline;}
+
+.inv, .inv * {color:#eee;}
+.inv a, .inv a * {color:white;}
+.inv a:hover, .inv a:hover * {color:#fc0;}
+
+#mainmenu a {text-decoration:none;}
+#mainmenu a.here {background:#069 url('http://imagens.superdownloads.com.br/imagens/constants/abas.png') repeat-x top left; color:white; border:1px solid #069;}
+#subheader {background-color:#069;}
+#footer {border-top:1px solid #333; background:#069 url('http://imagens.superdownloads.com.br/imagens/constants/footer.png') top left repeat-x;}
+
+/* Quando você quiser usar a cor default da área ou não sabe em que área está, use as classes de cor default ca0 e bga0 que elas seguem a cor da área */
+.ca0,.texto a {color:#069!important;} .bga0 {background-color:#069;}

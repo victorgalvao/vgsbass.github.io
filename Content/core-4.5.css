@@ -1,0 +1,811 @@
+* {font-family:arial,helvetica,sans-serif,sans;}
+body {font-size:11pt; margin:0;}
+img {border-width:0;}
+table {width:100%;}
+a, a:link, a:hover, a:active, a:visited {text-decoration:none;}
+li {margin-left:-10px;}
+.container {width: 970px; margin: 0 auto;}
+.g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11, .g12, .g13, .g14, .g15, .g16, .g17, .g18, .boxrelacionados{float: left; display: inline; margin: 0 0 20px 20px;}
+.g1, .i1 {width:35px;}
+.g2 {width:90px;}
+.g3, .i3 {width:145px;}
+.g4, .i4 {width:200px;}
+.g5 {width:255px;}
+.g6, .i6, .boxrelacionados {width:310px;}
+.g7 {width:365px;}
+.g8 {width:420px;}
+.g9 {width:475px;}
+.g10 {width:530px;}
+.g11 {width:585px;}
+.g12 {width:640px;}
+.g13 {width:695px;}
+.g14 {width:750px;}
+.g15 {width:805px;}
+.g16 {width:860px;}
+.g17 {width:915px;}
+.g18 {width:970px;}
+.first {margin-left:0 !important; clear: left;}
+
+.i1 {height:35px;}
+.i3 {height:90px;}
+.i4 {height:125px;}
+.i6 {height:194px;}
+.ii48 {width:48px; height:48px;}
+.z {margin:0; padding:0; border-width:0; height:0;}
+
+.ai1, .ai3, .ai4, .ai6, .aidf {display:block;background-repeat:no-repeat;}
+.ai1 {padding:0 0 10px 55px;}
+.ai3 {padding-top:95px;}
+.ai4 {padding-top:130px;}
+.ai6 {padding-top:205px;}
+.aidf {padding:0 0 2px 25px;}
+
+h1,h3,h4,p {margin:0; font-weight:normal;}
+h1, .f1 {font-size:40px; letter-spacing:-2px}
+h2, .f2 {font-size:32px; letter-spacing:-2px}
+h3, .f3 {font-size:20px; letter-spacing:-1px}
+h4, .f4 {font-size:16px; letter-spacing:0}
+.f5, input {font-size:15px; letter-spacing:0}
+.f6, label, .boxrelacionados ul li {font-size:13px; letter-spacing:0}
+.f7 {font-size:12px; letter-spacing:0}
+.f8 {font-size:9px; letter-spacing:0}
+
+.b {font-weight:bold;}
+.i {font-style:italic;}
+.n {font-weight:normal;}
+.u {text-transform:uppercase;}
+
+.o50 {filter:alpha(opacity=50); opacity:0.5; -moz-opacity:0.5; -khtml-opacity: 0.5;}
+
+/* Color Areas - toda cor tem sua inversão, um bg de mesma cor setado como bgcor */
+.ca1 {color:#069;} .bga1 {background-color:#069;}
+.ca2 {color:#060;} .bga2 {background-color:#060;}
+.ca3 {color:#096;} .bga3 {background-color:#096;}
+.ca4 {color:#960;} .bga4 {background-color:#960;}
+
+/* Cores paleta extra - toda cor tem sua inversão, um bg de mesma cor setado como bgcor */
+.cred {color:red;} .bgred {background-color:red;}
+.cgray {color:#808080;}/*#ccc;*/ .bggray {background-color:#eee;}
+.cdgray{color:#666;} .bgdgray {background-color:#666;}
+.corange {color:#f60;} .bgorange {background-color:#fc0;}
+.cgreen {color:#390;} .bggreen {background-color:#390;}
+.cwhite {color:white;} .bgwhite {background-color:white;}
+.cinza{color:#666;}
+
+.p0 {padding:0px !important;}
+.p5 {padding:5px;}
+.p10 {padding:10px;}
+.p2 {padding:2px;}
+
+.rss {
+background: white url(http://www.superdownloads.com.br/imagens/constants/ico/xml.rss.gif) 0 3px no-repeat; padding: 0 0 0 22px; display: block;
+}
+.listrss {
+  padding-bottom:3px;padding-top:2px;
+}
+
+.ph {padding:2px 6px;}
+.mb0 {margin-bottom:0 !important;}
+.mb5 {margin-bottom:5px;}
+.mb10 {margin-bottom:10px;}
+.mb20 {margin-bottom:20px;}
+
+.bb1 {border-bottom:1px solid #ddd;}
+.bt1 {border-top:1px solid #ddd;}
+
+/*breadcrumb*/
+#breadcrumb{margin-bottom:140px;margin-top:5px;}
+
+/* BANNERS */
+#bannersuperior {position:absolute; top:165px; margin-left:auto; margin-right:auto; width:100%;}
+/*#bannersuperior div,#bannersuperior object,#bannersuperior embed {margin:0 auto !important;position:relative !important;}*/ /*hack do bilu*/
+#bannerinferior {margin:0 auto 20px auto; text-align:center;}
+
+/* Classes especiais */
+img.vitrine {width:48px; height:48px; float:left;margin-left:20px;}
+div.vitrine {width:90px; float:left; margin:0 0 10px 7px;} /* height:100px !important; corrigir problema no IE8 - Precisa do height no modo de compatibilidade */
+div.sidebanner {width:300px; height:250px;}/*  border:5px solid #ddd; Borda retirada */
+ol.ranking {margin-left:0;margin-top:10px;padding-left:55px;}/*margin-left:0; tbm para reparar outro problema do IE8*/
+ul.news,ul.lists{margin-left:0;margin-top:0;padding-left:30px;}
+ol.ranking li, ul.news li {padding:4px; border-bottom:1px solid #ddd;}
+ol.wgranking li {padding:4px 55px 4px 4px; border-bottom:1px solid #ddd;}
+li.ranking1st {background-repeat:no-repeat; background-position:200px 10px;padding-right:70px!important;} /* Inserido !important pra reconhecer espaçamento do 1° item do ranking */
+ul.news li,ul.news,ul.lists, ul.lists li{list-style-image:url('http://www.superdownloads.com.br/imagens/constants/bull.newshome.png');zoom:1;} /* IE 7 - alinhar melhor os bullets*/}
+ol.wgranking li {background-repeat:no-repeat; background-position:230px 10px;padding-right:55px;}
+ol.wgranking>li>a>span {display:block;} /* Chrome insiste em não deixar mudar lineheigh, que é herdado do OL que é f3 */
+p.materias {min-height:35px;}
+div.whatsnewtitle {float:left;width:96px;margin-right:4px;margin-left:0;background-repeat:no-repeat;}
+div.whatsnewdescription {float:left;width:96px;margin-right:0;margin-left:4px;} /* Christian Figueiredo: tag com classe para acertar o espaço da coluna de descrição (à direita da imagem de 96px X 96px)... eg. Home de WebGames */
+div.box{border:1px solid #ccc;background-color:#f2f2f2 !important; border-color:#ccc;border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;width:570px;}
+img.box-seta{float:left;margin-left:-12px;margin-top:12px;margin-bottom:-24px;}/*12px é o tamanho da imagem, 24px é o dobro da altura da imagem*/
+.normal{display:inline-block !important;width:auto !important;}
+
+div.more{border:1px solid #ccc;background-color:#f2f2f2 !important; border-color:#ccc;border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;width:200px;}
+
+#header {background-color:#eee; border-top:1px solid #ccc;top:180px;}
+#mainmenu a {padding:1px 7px; display:inline-block;margin:0;font-size:18px;letter-spacing:-1px;}
+#mainmenu a.here {border-bottom-width:0;padding:1px 6px;}
+#submenu a {padding:5px 8px; display:inline-block;}
+#ol-total{display:none;} /* necessario para ocultar o ranking por total, até que o javascript faça ele aparecer */
+#footerend a.cr,#footerend a.sa,#footerend a.sd{background:url('http://imagens.superdownloads.com.br/imagens/constants/sprite_img_2011_08_23.png') no-repeat;}
+#footerend{border-top:0; background:#333 url('http://imagens.superdownloads.com.br/imagens/constants/footer.png') top left repeat-x;}
+#footerend a{height:68px;display:inline-block;background:transparent top left repeat-x;margin:15px 10px 5px 0;}
+#footerend a.cr,#footerend a.sa,#footerend a.sd{margin-left:30px;}#footerend a span{text-indent:-999px;display:inline-block;}
+#footerend a.cr{width:140px;background-position:-11px -136px;}#footerend a.sa{width:102px;background-position:-33px -210px;}#footerend a.sd{width:148px;background-position:-168px -210px;}
+#footerdark{padding:5px 0 4px 0;background-color:#000;}
+#footer a,#footer,#footerdark,#footerdark a{color:#fff;}
+#footerdark a,#footerdark span{padding:5px 10px 5px 0;display:inline-block;}
+
+/* FRESCURITS */
+#mainmenu a.here {-moz-border-radius:3px 3px 0 0; -webkit-border-radius:3px 3px 0 0;}
+
+/* Forms */
+input[type='text'],input[type='submit'],input[type='password'],select {margin:4px 0 10px 0;display:block;width:97%;}
+input[type='text']:hover,input[type='password']:hover, select:hover {outline:2px solid gold;}
+input[type='text']:focus,input[type='password']:focus, select:focus {outline:2px solid orange;}
+
+form#search {margin:15px 0 0 0;}
+input.searchtext,input#searchtext,input#searchtextfooter,input#searchtextoff {display:inline-block;width:300px;vertical-align:text-bottom;border:1px inset #eee;margin:0;padding:2px 36px 2px 2px;font-size:26px;}
+input.searchsubmit,input#searchsubmit,input#searchsubmitfooter,input#searchsubmitoff {display:inline-block;width:29px;height:32px;vertical-align:text-bottom;border:0;margin:0 0 3px -36px;*margin-bottom:2px;cursor:pointer;}
+input#searchsubmitfooter {margin:0 0 3px -35px;}
+input#searchtextfooter {width:600px;}
+input#searchsubmitfooter {padding:7px 0 !important;}
+input#searchsubmitoff {margin:0 0 3px -35px;}
+input#searchtextoff {width:500px;}
+input#searchsubmitoff {padding:7px 0 !important;}
+input#cadtextfooter {width:145px;}
+input#cadtextcadastre{width:290px;}
+input#cadsubmitfooter {width:90px;}
+input#buttoncadastre {width:100px;}
+
+
+/* clearfix */
+.clearfix:after {visibility:hidden; display:block; font-size: 0; content:" "; clear:both; height:0;}
+* html .clearfix {zoom:1;}
+
+/* IE6 */
+*:first-child+html .clearfix {zoom:1;}
+
+/* boxrelacionados */
+.boxrelacionados{border-top:2px #808080 solid;margin: 5px 20px 20px 0;padding-top:5px;}
+.boxrelacionados ul{list-style:none;padding:0;}
+.boxrelacionados ul li{border-bottom:1px #ccc solid;margin:0;padding:2px 5px 2px 5px;}
+
+/* pinned site */
+/* Toast */
+	toast
+	{
+		display:none;
+		background-color:#fff;
+		bottom:0;
+		border:2px solid #939699;
+		border-bottom:0;
+		border-radius:8px 8px 0 0;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:10px;
+		left:40px;
+		line-height:30px;
+		padding:0 24px 0 28px;
+		position:fixed;
+		z-index:9999;
+		}
+
+	.toast  .pinning-hide
+	{
+		background:transparent url("http://imagens.superdownloads.com.br/imagens/constants/close.png") no-repeat top left;
+		cursor: pointer;
+		display: block;
+		height: 14px;
+		position: absolute;
+		right: 2px;
+		text-indent:-9999px;
+		top: 2px;
+		width: 14px;
+		}
+
+	.toast img
+	{
+		cursor:pointer;
+		height:20px;
+		position:absolute;
+		top:4px;
+		left:4px;
+		width:20px;
+	}
+/*Novo sitema de Comentarios*/
+#comentariostextarea,#comentariosbutton,#comentariosmais{
+	border:1px #ccc solid;
+	color:#888;
+	padding:5px 10px;
+	-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+}
+#comentariosform label.g9{
+	padding-top:5px;
+}
+#comentariosfoto{
+	display:none;
+}
+#comentariosestrela{
+	margin:0;
+}
+#comentariostextarea{
+	width:616px;
+}
+#comentariosbutton{
+	background-color:#f63;
+	color:#fff;
+	cursor:pointer;
+	padding:8px 20px;
+	margin-top:5px;
+	font-weight:bold;
+	font-size:13px;
+}
+#comentariosmais,#comentariosdiv .comentariosavaliar{
+	cursor:pointer;
+	color:#666;
+}
+#comentariosestrela.logado{
+	margin-left:48px;
+}
+#comentariosfoto.logado{
+	display:inline;
+	margin-top:2px;
+}
+#comentariostextarea.logado{
+	width:566px;
+	float:right;
+}
+#comentariosbutton.logado{
+	background-color:#2a2;
+}
+.comentariosreplica{
+	-webkit-border-radius:8px 0;-moz-border-radius:8px 0;border-radius:8px 0;
+	border:1px #ddd solid;
+	float:right;
+	color:#444;
+	background-color:#e5e5e5;
+	padding:5px 10px;
+}
+.comentariosreplica p{
+	padding-top:10px;
+}
+.comentariosreplica p,.comentariosreplica h4{
+	text-indent:20px;
+}
+
+/* NOVO - #boxnoticias */
+#boxnoticiascontrole ul,#boxnoticiascontrole ul li.botao span{display:inline-block;}
+#boxnoticiascontrole ul li,#boxnoticiascontrole ul li.botao span{float:left;}
+#boxnoticiascontrole ul,#boxnoticiascontrole ul li,#boxnoticias ul{margin:0;padding:0;list-style:none;}
+#boxnoticias ul,#boxnoticias{width:200px;}
+#boxnoticias{overflow:hidden;position:absolute;height: 210px;display:block;clear:both;background:url('http://imagens.superdownloads.com.br/imagens/loader.gif') center center no-repeat;}
+#boxnoticias ul{display:inline;position:absolute;}
+#boxnoticias ul li{margin:0;visibility:hidden;width:182px;padding-left:18px;background:url('http://imagens.superdownloads.com.br/imagens/constants/bull.newshome.png') left 5px no-repeat;zoom:1;font-size:14px;line-height:16px;margin-bottom: 5px;}
+#boxnoticiascontrole{border-top:1px #ccc solid;height:22px;margin-top:223px;}
+#boxnoticiascontrole a{font-size:14px;padding-top:6px;display:inline-block;width:135px;}
+#boxnoticiascontrole a span{margin:3px 10px 0 0;}
+#boxnoticiascontrole ul{float:right;margin-top:5px;}
+#boxnoticiascontrole ul li span{margin:2px 3px 0 0;cursor:pointer;}
+#boxnoticiascontrole ul li.botao{max-width:40px;height:14px;overflow:hidden;}
+#boxnoticiascontrole ul li.botao span{width:5px;height:12px;border:1px solid #666;margin-top:0;}
+
+
+/* super bg (a cor de fundo deve ser aplicada no id #mask-superbg, dentro de cada CSS e area) */
+#mask-superbg{position:absolute;top:0;left:50%;margin-left:-506px;width:1012px;z-index:-9999!important;}
+
+
+
+/* --- reforce --- */
+.ac{text-align:center;}
+.vasub {vertical-align:sub;}
+.flle {position:relative;float:left;}
+.flri {position:relative;float:right;}
+.nofloat_doblock {float:none !important;display:inline-block;}
+.txle {text-align:left;}
+.txri {text-align:right;}
+.txce {text-align:center;}
+sup.novo{border:1px solid #c55;font:bold 6pt verdana;color:#c00;background-color:#ffe;padding:1px 2px;margin-left:3px !important;}
+
+.nolink {text-decoration:none !important;}
+
+.p0{padding:0px;}
+
+.pt0{padding-top:0px;}
+
+.pv{padding:2px 0 2px 0 !important;}
+.pt5{padding-top:5px;}
+.pb5{padding-bottom:5px;}
+.pt10{padding-top:10px;}
+.pb10{padding-bottom:10px;}
+.pb15{padding-bottom:15px;}
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl15{padding-left:15px;}
+.pl20{padding-left:20px;}
+.pl30{padding-left:30px;}
+.pl40{padding-left:40px;}
+.pl100{padding-left:100px;}
+.pr20{padding-right:20px;}
+
+.pt20{padding-top:20px;}
+.ml-20{margin-left:-20px;}
+.ml-10{margin-left:-10px !important;}
+
+.m1 {margin:1px;}
+
+.mb-1 {margin-bottom:-1px;}
+.mb10redir {margin-bottom:10px !important;}
+.mb13 {margin-bottom:13px;}
+.mb30 {margin-bottom:30px;}
+.mb20 {margin-bottom:30px;}
+.mb40 {margin-bottom:40px;}
+
+.mt0 {margin-top:0;}
+.mt1 {margin-top:1px;}
+.mt3 {margin-top:3px;}
+.mt5 {margin-top:5px;}
+.mt7 {margin-top:7px;}
+.mt10 {margin-top:10px;}
+.mt-10 {margin-top:-10px;}
+.mt15 {margin-top:15px;}
+.mt20 {margin-top:20px;}
+.mt30 {margin-top:30px;}
+.mt-35 {margin-top:-35px;}
+
+.bb1 {border-bottom:1px solid #ddd;}
+.bb2 {border-bottom:1px solid #fff;}
+
+.ml0{margin-left:0;}
+.ml10 {margin-left:10px;}
+.ml{margin-right:15px;}
+.ml20{margin-left:20px;}
+.ml25{margin-left:25px;}
+.ml30 {margin-left:50px;}
+
+.mr5{margin-right:5px;}
+
+.hidden{display:none;}
+.invisible{visibility:hidden;}
+
+div.fontcharinfo {width:310px; margin:0 0 0 18px; border:1px dashed #ccc;}
+
+/* Bordas inferiores por sistema */
+.bb3Win{border-bottom:3px solid #069;}
+.bb3Lin{border-bottom:3px solid #060;}
+.bb3Mac{border-bottom:3px solid #666;}
+.bb3Onl{border-bottom:3px solid #336;}
+.bb3And{border-bottom:3px solid #a2b738;}
+.bb3Iph{border-bottom:3px solid #666;}
+.bb3Jogos{border-bottom:3px solid #f60;}
+.bb3Publicidade{border-bottom:3px solid #aaa;padding-top:9px;color:#aaa !important;}
+
+#midia{display:block;clear:both;}
+#midia #facebook iframe{width:100px !important;}/*problema com width no like do FB*/
+#twitter,#facebook,#addthis {float:left;}
+#twitter-follow{width:175px; height:10px; margin-left:35px;}
+
+.FB_UI_Hidden{overflow:hidden;max-width:1px;} /* Iframe bugado do facebook que gerava barra de rolagem no fancybox */
+
+.radio-middle {position:relative;top:1px;}
+
+/* Comentários */
+.imguser {width:48px;}
+.boxComent {background:#ECECEC;}
+.boxComentText {margin:0px 0 0 15px;}
+.boxComentText em, .boxComentText a {margin:10px;}
+.boxComentText p {margin:0px 0 10px 0px;}
+.boxComentText{width:484px;}
+
+/* Assinatura de autor em matérias */
+.boxautor {padding-top:10px;}
+
+li.pro {list-style-image:url('http://imagens.superdownloads.com.br/imagens/ico/bull.pros.gif'); color:green; margin:0 0 2px -20px;}
+li.contra {list-style-image:url('http://imagens.superdownloads.com.br/imagens/ico/bull.contras.gif'); color:red; margin:0 0 2px -20px;}
+li.nolist{list-style-type:none;}
+div.foo { border:1px solid #ccc;margin:3px 3px 10px 3px;}
+.proscontras{float:right;}
+
+ul#abas li {display:inline;margin:0px;border-top:1px solid #ccc;border-right:1px solid #ccc;border-bottom:0px none;border-left:0px none;}
+ul#abas li.abafirst {border-left:1px solid #ccc;}
+ul#abas li.selecionado {border-top:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px #fff solid;border-left:1px solid #ccc;background-color:#fff;}
+
+.texto p {margin:1em 0;line-height:1.4em;}
+.texto img {max-width:640px;}
+.texto a {text-decoration:underline;}
+
+/* clouds */
+.tag0, .tag0:hover {font-size: 1.0em;}
+.tag1, .tag1:hover {font-size: 1.1em;}
+.tag2, .tag2:hover {font-size: 1.2em;}
+.tag3, .tag3:hover {font-size: 1.3em;}
+.tag4, .tag4:hover {font-size: 1.4em;}
+.tag5, .tag5:hover {font-size: 1.5em;}
+.tag6, .tag6:hover {font-size: 1.6em;}
+.tag7, .tag7:hover {font-size: 1.7em;}
+.tag8, .tag8:hover {font-size: 1.8em; font-weight: bold; }
+.tag9, .tag9:hover {font-size: 1.9em; font-weight: bold; }
+.tag10, .tag10:hover {font-size: 2.0em; font-weight: bold; }
+ul.ulp{margin:0;padding:10px 10px 10px 50px;}
+div#usertop {float:left;width:100px;}
+button.driverdownloadbutton {width:310px;}
+div.driverbeta {margin:20px; padding:10px; border:2px dotted red;}
+.alinhaimg{vertical-align:bottom;}
+ul.ulp{margin:0;padding:10px 10px 10px 50px;}
+.bordertopP5{border-top:1px #ccc solid;margin-top:5px;}
+
+/* Licenças */
+.freewares {color:green}
+.sharewares {color:#cc0066}
+.opensources {color:#9900cc}
+.pago {color:red}
+
+/* coisas zuadas para as caixinhas de quando não vem nada na busca */
+.peq, .peqg, div.corebottom, div.listagemsimples, table.vtrowlist td, div.fancycategoria, div.dwnx, div.vtvoid, a.vtsubtitulo, a.vtsubtitulo:hover, div.dtqsecbox, ul.a8ptgold li *, div.padchildcat {font-size:11px;line-height:14px;letter-spacing:0px;}
+table.listagem td {font-size:15px;line-height:14px;letter-spacing:0px;}
+.peq, .peqg, div.padchildcat {font-weight:normal;color:#444;}
+.tiny {font:normal normal 11px/13px tahoma,arial,helvetica,sans;letter-spacing:0px;color:#666;}
+.tiny strong {font-weight:bold;color:red}
+.msn_conect{background:url('http://imagens.superdownloads.com.br/imagens/constants/SharingBadge16x16White.png');width:16px;height:16px;float:left;}
+
+#ui-active-menuitem {background-color: #e5e5e5;text-decoration: underline;}
+
+/*download url alternativa */
+.downloadUrlAlternativa label,.downloadUrlAlternativa label input{padding:0;margin:0;}
+.downloadUrlAlternativa label{margin-left:10px;width:265px;clear:both;padding-left:20px !important;}
+.downloadUrlAlternativa label input{margin-right:5px;margin-left:-18px !important;}
+
+/*Botoes add this */
+.compartilhe{float: right;}
+.compartilhe a{background: url("http://imagens.superdownloads.com.br/imagens/constants/ico-compartilhe.gif") no-repeat scroll 0 0 transparent;float: right;height: 24px;margin: 2px;width: 24px;}
+.compartilhe a.twitter {background-position: 0 0;}
+.compartilhe a.facebook {background-position: -24px 0;}
+.compartilhe a.orkut {background-position: -48px 0;}
+.compartilhe a.live{background: url("http://imagens.superdownloads.com.br/imagens/constants/msn.png") no-repeat scroll transparent;}
+.compartilhe a.rss{background: url("http://imagens.superdownloads.com.br/imagens/constants/rss.png") no-repeat scroll transparent;}
+
+ /* Loading TesterBg */
+#mask {
+position:absolute;
+left:0;
+top:0;
+z-index:9000;
+background-color:#000;
+display:none;
+opacity:0.80;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
+filter:alpha(opacity=80);
+zoom:1
+}
+
+#boxes .window {
+position:absolute;
+left:0;
+top:0;
+width:440px;
+height:200px;
+display:none;
+z-index:9999;
+padding:20px;
+}
+
+#boxes #dialog {
+width:375px;
+height:203px;
+padding:10px;
+background-color:#ffffff;
+}
+
+#boxes #dialog1 {
+width:375px;
+height:203px;
+}
+
+#dialog1 .d-header {
+font-family:verdana;
+font-size:15px;
+width:375px;
+height:150px;
+color:#fff;
+}
+
+#dialog1 .d-loading {
+width:355px;
+height:130px;
+}
+
+#textLoading{
+color:#fff;
+margin-left:10px;
+}
+
+.d-loading {
+position:relative;
+margin-top:1px;
+margin-left:10px;
+}
+
+#dialog1 .d-blank {
+float:left;
+width:267px;
+height:53px;
+}
+
+.close{display:block; text-align:right;}
+/* Fim Loading TesterBg */
+
+ /*estrelinhas*/
+.starfull, .starhalf, .starempty {display:inline-block; width:16px; height:16px; background:transparent url(http://imagens.superdownloads.com.br/imagens/stars16.png) 0 0 repeat-x;}
+.starhalf {background-position:0 -16px;}
+.starempty {background-position:0 -32px;}
+
+/* requerimentos de softwares */
+.requerimentos{min-width:32px;min-height:32px;padding:0 0 6px 40px;background-repeat:no-repeat;}
+
+.text-for-image{position:absolute;left:-300px;}
+
+/*hp*/
+.hprow{
+	float:left;
+	clear:both;
+	display:block;
+	width:100%;
+}
+.hpitem{
+	width:484px;
+	height:100px;
+	max-height:100px;
+	float:left;
+	border-right:1px solid #D2D2D2;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	overflow: hidden;
+}
+.hpicoSoft{
+	width:48px;
+	height:48px;
+	min-height:48px;
+	float:left;
+}
+.hpcontentItem{
+	height:48px;
+	width:484px;
+	margin-top:25px;
+	margin-bottom:20px;
+	margin-left:10px;
+	float:left;
+
+}
+.hpcontentItemDetail{
+	height:48px;
+	width:230px;
+	margin-left:10px;
+	float:left;
+}
+.hpcontentItemName{
+	margin-top:5px;
+	margin-bottom:10px;
+	float:left;
+	width:100%;
+	font-size:17px;
+}
+.hpcontentItemCategory{
+	margin-bottom:15px;
+	font-size:12px;
+	color:#C7C7C7;
+	width:100%;
+	float:left;
+}
+.hpcontentItemButton{
+	height:48px;
+	width:170px;
+	float:left;
+}
+.hpcontentItemLicense{
+	width:160px;
+	height:10px;
+	margin-bottom:10px;
+	float:left;
+	color:#787878;
+	text-align:center;
+	font-size:15px;
+}
+.hpbtOpen{
+	width:161px;
+	height:29px;
+	float:left;
+	background:url(http://imagens.superdownloads.com.br/imagens/constants/hp_bt.png) no-repeat;
+	cursor:pointer;
+	text-align:center;
+	font-weight:bold;
+	display:table-cell; vertical-align:bottom;
+}
+.hpodd{
+	background-color:#F2F2F2;
+}
+
+/* Categorias Main */
+.catBordaInferior{border-bottom: 2px groove #fff;}
+.catBordaTopList{border-top: 2px groove #fff;}
+li.cleanlist{border:0 !important;font-weight:normal !important;} /* Tirando styles que ficam sobrando na lista */
+ol#ol-totalcat,div#link-totalcat{display:none;}
+.cdgraycat,.cdgraycat a,.cdgraycat a:link{color:#666 !important;}
+a.buscascat{float: left; display: inline;padding:7px 0 0 11px;}
+
+/* Páginas parceiros */
+.dadosparceiro{border-bottom:1px dashed #666;padding-bottom:5px;}
+
+
+
+
+
+/* ---- IMAGENS ---- */
+.logo-superd-header,.logo-superd-footer,
+.logo-facebook-48,.logo-orkut-48,.logo-google-48,.logo-rss-48,.logo-yahoo-48,.logo-twitter-48,
+.login-orkut-48,.login-google-48,.login-yahoo-48,
+.bg-superd-footer,.button-busca,.icon-list-drivers,.icon-list-fonts,.icon-list-close,
+.icon-help,.icon-cadastro,.icon-login,.icon-orkut,.icon-facebook,.icon-google,.icon-ie9,.icon-twitter,.icon-yahoo,.icon-plus-indice,.bullet-news-home,.icon-seta-esquerda,.icon-seta-direita{background:url('http://imagens.superdownloads.com.br/imagens/constants/todas-v1.2.png') no-repeat top left;float:left; cursor:hand;}
+
+.banner-midia-twitter,.banner-midia-orkut,.banner-midia-feeds,.banner-midia-facebook{background:url('http://imagens.superdownloads.com.br/imagens/constants/midias.png') no-repeat top left;float:left;}
+
+.banner-midia-twitter{width:145px;height:70px;background-position:-145px -70px;}
+.banner-midia-orkut{width:145px;height:70px;background-position:-145px 0px;}
+.banner-midia-feeds{width:145px;height:70px;background-position:0px -70px;}
+.banner-midia-facebook{width:145px;height:70px;background-position:0px 0px;}
+
+.logo-superd-header{width:330px;height:60px;background-position:-10px -140px;}
+.logo-superd-footer{width:24px;height:20px;background-position:-15px -24px;}
+
+.logo-facebook-48{width:48px;height:48px;background-position:-70px -90px;}
+.logo-orkut-48,.login-orkut-48{width:48px;height:48px;background-position:-127px -90px;}
+.logo-google-48,.login-google-48{width:48px;height:48px;background-position:-15px -90px;}
+.logo-rss-48{width:48px;height:48px;background-position:-239px -90px;}
+.logo-yahoo-48,.login-yahoo-48{width:48px;height:48px;background-position:-239px -40px;}
+.logo-twitter-48{width:48px;height:48px;background-position:-183px -90px;}
+
+.button-busca{width:27px;height:30px;background-position:-15px -47px;}
+
+.icon-list-fonts{width:16px;height:16px;background-position:-95px -1px;}
+.icon-list-drivers{width:16px;height:16px;background-position:-58px -1px;}
+.icon-list-close{width:14px;height:11px;background-position:-74px -24px;}
+
+.icon-help{width:16px;height:16px;background-position:-79px -1px;}
+.icon-cadastro{width:16px;height:16px;background-position:-36px -1px;}
+.icon-login{width:16px;height:16px;background-position:-15px -1px;}
+.icon-orkut{width:16px;height:16px;background-position:-177px -1px;}
+.icon-facebook{width:16px;height:16px;background-position:-156px -1px;}
+.icon-google{width:16px;height:16px;background-position:-135px -1px;}
+.icon-ie9{width:16px;height:16px;background-position:-114px -1px;}
+.icon-twitter{width:16px;height:16px;background-position:-199px -1px;}
+.icon-yahoo{width:16px;height:16px;background-position:-220px -1px;}
+
+.bg-superd-footer{width:18px;height:24px;background-position:-47px -24px;}
+
+.icon-plus-indice{width:9px;height:10px;background-position:-92px -75px;}
+.bullet-news-home{width:6px;height:9px;background-position:-108px -75px;}
+.icon-seta-esquerda{width:6px;height:9px;background-position:-121px -75px;}
+.icon-seta-direita{width:6px;height:9px;background-position:-130px -75px;}
+
+
+
+/* BUSCA */
+.p2 {padding:2px 0;}
+p.l1 {font-weight:bold;}
+p.l2 {padding-left:10px;}
+p.l3 {padding-left:20px;}
+
+.pl60 {padding-left:60px;}
+.pl120 {padding-left:120px;}
+hr {border-width:0; border-top:1px solid #ccc; margin:10px 0; padding:0;}
+hr.hr {clear:both;}
+.offline,
+.offline a,
+div.offline p,
+a.offline,
+.cdgraycnz,
+.cdgraycnz a,
+.cdgraycnz a:link{
+	color:#666 !important;
+}
+a.offline:hover {color:red;}
+img.shot {display:block; width:145px; height:90px;}
+img.shot-fontes {display:block; width:128px; height:96px;}
+.paginator {clear:both; border-top:1px solid #ccc; margin-top:10px; padding-top:10px;}
+.paginator a, .paginator span {display:inline-block; padding:3px 6px; border:1px solid #ccc; font-size:16px; text-align:center;}
+.flag {font:normal 9px/24px arial,sans; letter-spacing:0; border:1px solid #ccc; background-color:#ffc; word-wrap:normal; 	padding:1px 4px 0 4px; vertical-align:text-top; text-transform:uppercase; -moz-border-radius:2px; -webkit-border-radius:2px;}
+.link{cursor:pointer;}
+.collapser {display:block; text-align:center;background-color:#eee; padding:1px; border:1px solid #ddd; -moz-border-radius:0 0 4px 4px; -webkit-border-radius:0 0 4px 4px;}
+.collapserwall {display:block; text-align:center;background-color:#262626; padding:1px; border:1px solid #85244D; color:#85244D;margin-top:5px;}
+
+
+/* Cores alpha slug() TODO: Botar as cores corretas das licenças */
+.c_grts {color:green;}
+.c_grtsprtstr {color:red;}
+.c_sftwrlvr {color:purple;}
+.c_sftwrlvr {color:purple;}
+.c_pg {color:red;}
+
+.ico {padding-left:26px;}
+.ico_sftwrs, .ico_jgsnln, .ico_fnts, .ico_mtrs, .ico_drvrs, .ico_dstrs, .ico_sdjd, .ico_wllpprs, .ico_ppsdprd {background:transparent url(/imagens/icons/application_double.png) 3px 3px no-repeat;}
+.ico_jgsnln {background-image:url(/imagens/icons/joystick.png);}
+.ico_mtrs {background-image:url(/imagens/icons/newspaper.png);}
+.ico_dstrs {background-image:url(/imagens/icons/package.png);}
+.ico_sdjd {background-image:url(/imagens/icons/lightbulb.png);}
+.ico_ppsdprd {background-image:url(/imagens/icons/photos.png);}
+
+.filtro .ico {padding-top:3px; padding-bottom:3px;}
+.filtro .ico:hover {background-color:#fc0;}
+
+.noborder{border:0px;}
+
+.x,.y {padding:2px 26px 2px 9px; background:transparent url(//www.superdownloads.com.br/imagens/constants/x.png) right center no-repeat; display:block; border:1px solid #ddd;}
+.y {background-image:url(//www.superdownloads.com.br/imagens/constants/icons/accept.png);cursor:default;}
+.s {padding:2px 0 2px 10px; color:#666;}
+
+form input#queryedit{width:100px;height:20px;margin-bottom:0;}
+img#research{width:25px;height:25px;margin:4px 0 0 10px;border:1px #ccc solid;background-color:#e3e6ea;color:#666;}
+
+.filewall{border:1px solid;border-color:#464646;background:#333333;color:white;}
+
+/* Estilo para legenda de imagens */
+.fonte-imagem {
+    color: #888888;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.5em;
+}
+.gsc-above-wrapper-area {
+    display:none!important;
+}
+.gsc-control-cse,.gsc-control-cse-pt_BR {
+    padding:0!important;margin:0!important;border:0!important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    border: 1px solid #CCC !important;
+    background-color: white !important;
+    color: #15C !important;
+    font-size: 16px !important;
+    padding: 10px !important;
+}
+
+    .gsc-results .gsc-cursor-box .gsc-cursor-page:hover {
+        border: 1px solid #CCC !important;
+        background-color: #06C !important;
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    color: #000 !important;
+}
+
+    .gsc-results .gsc-cursor-box .gsc-cursor-current-page:hover {
+        color: #000 !important;
+        border: 1px solid #CCC !important;
+        background-color: white !important;
+    }
+
+.gs-web-image-box-landscape img.gs-image {
+    max-width: 170px !important;
+    max-height: 100px !important;
+    width: 170px !important;
+}
+
+.gs-image-box.gs-web-image-box.gs-web-image-box-landscape {
+    width: 190px !important;
+    padding-left: 7px !important;
+}
+
+.gsc-control-cse .gs-spelling, .gsc-control-cse .gs-result .gs-title, .gsc-control-cse .gs-result .gs-title * {
+    font-size: 18px !important;
+    text-decoration: none !important;
+}
+
+.gs-webResult.gs-result a.gs-title:hover, .gs-webResult.gs-result a.gs-title:hover b {
+    color: #F60 !important;
+}
+
+.gsc-control-cse .gsc-table-result {
+    width: 634px !important;
+}

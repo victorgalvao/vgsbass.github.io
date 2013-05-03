@@ -1,0 +1,25 @@
+/* CSS REDIR - Rodrigo Celebrone */
+.boxIndisponivel{background-color:#fdd;border:1px red solid;width:617px;}
+.boxVermelho{background-color:#ff0164;}
+.m5 {margin:5px;}
+.border{border:1px #ccc dotted;}
+.bordersolid{border:1px #ccc double;}
+.hand{cursor:pointer;}
+#rx_altcontainer table tr td{border-width:0 0 1px 0 !important;}
+#boxreportar{background:url('http://imagens.superdownloads.com.br/imagens/ico/redir.linkquebrado.png') no-repeat right center;}
+#boxcadastrese{background:url('http://imagens.superdownloads.com.br/imagens/ico/redir.cadastre-se.png') no-repeat right center;}
+#container-buscape-direto,#container-buscape,.stripe{overflow:hidden;}
+#container-buscape{height:210px;}
+#container-buscape iframe{margin-left:-5px;margin-top:0px;width:650px;height:250px;}
+#container-buscape-direto,#container-buscape-direto iframe{height:210px;}
+#container-buscape-direto iframe{margin-left:20px;width:970px;}
+#rx_altcontainer table{width:100%;}
+.problema-download{border:1px #aaa dotted;cursor:pointer;}
+
+.redirboxverde{background-color:#00cf00;}
+.redirboxamarelo{background-color:#ffcc00;}
+
+table.redirbox{margin-bottom:8px;border:1px solid #999;cursor:pointer;}
+table.redirbox tr td.numero{border:1px solid #999;border-width:0 1px 0 0;width:65px;}
+table.redirbox tr td span.redirtexto{vertical-align:middle;}
+table.redirbox tr td span.redirdownload{display:none;vertical-align:middle;}

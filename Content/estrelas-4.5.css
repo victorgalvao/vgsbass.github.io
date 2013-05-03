@@ -1,0 +1,10 @@
+/*estrelinhas*/ 
+.starfull, .starhalf, .starempty, .starfullblue {display:inline-block; width:16px; height:16px; background:transparent url(http://superdownloads.com.br/imagens/stars16.png) 0 0 repeat-x;}
+.starhalf {background-position:0 -16px;}
+.starempty {background-position:0 -32px;}
+.starfullblue {background-position:0 -64px;}
+
+/*estrelonas*/ 
+.starfullbig, .staremptybig, .starfullbluebig {display:inline-block; width:32px; height:32px; background:transparent url(http://superdownloads.com.br/imagens/constants/stars32.png) 0 0 repeat-x;}
+.starfullbig {background-position:0 -96px;}
+.staremptybig {background-position:0 -64px;}

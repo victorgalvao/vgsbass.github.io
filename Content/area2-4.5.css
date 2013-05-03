@@ -1,0 +1,25 @@
+/* CSS AREA - Cores e estilos pra cada área - Alexei Martchenko */
+
+/* Cores de links */
+a, a:link, a:active, a:visited {color:#333;}
+.inter a, .inter a:link, .inter a:active, .inter a:visited {color:#060;}
+a:hover,.inter a:hover{color:#090;text-decoration:underline;}
+
+.inv, .inv * {color:#eee;}
+.inv a, .inv a * {color:white;}
+.inv a:hover, .inv a:hover * {color:#0f3;}
+
+#mainmenu a {text-decoration:none;}
+#mainmenu a.here {background:#060 url('http://imagens.superdownloads.com.br/imagens/constants/abas.png') repeat-x 0 -30px; color:white; border:1px solid #060;}
+#subheader {background-color:#060;}
+#footer {border-top:1px solid #333; background:#060 url('http://imagens.superdownloads.com.br/imagens/constants/footer.png') top left repeat-x;}
+#cadastrase {height:203px;-moz-border-radius:8px 8px 8px 8px; -webkit-border-radius:8px 8px 8px 8px; background:#069 url('http://imagens.superdownloads.com.br/imagens/constants/box-Cadastro_bg.png') top left repeat-x;}
+
+/* Quando você quiser usar a cor default da área ou não sabe em que área está, use as classes de cor default ca0 e bga0 que elas seguem a cor da área */
+.ca0,.texto a {color:#060!important;} .bga0 {background-color:#060;}
+
+/* Categorias Main */
+.catBordaSuperior{height:30px !important;border-top: 3px solid #060;}
+.catBordaInferiorBox{border-bottom: 2px groove #060;}
+a.setabg{background:url('/Images/constants/setabg2.png') center top no-repeat;font-weight:bold;}
+a.setabgranking{background:url('/Images/constants/setabg2.png') no-repeat;background-position:15px 0px;padding-top:7px;font-weight:bold;}

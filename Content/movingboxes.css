@@ -1,0 +1,140 @@
+#slider {width: 640px; height: 263px; }
+#slider li {width: 450px; visibility:hidden;}
+
+/*** Overall MovingBoxes Slider ***/
+.mb-wrapper {
+	margin: 0 auto 0;
+	position: relative;
+	left: 0;
+	top: 0;
+	background-color: #ccc;
+}
+
+/* Panel Wrapper */
+.mb-slider, .mb-scroll {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+/* active slider border highlight */
+.mb-active-slider {
+	border-color: #333;
+}
+
+/*** Slider panel ***/
+.mb-slider .mb-panel {
+	display: block;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	filter: alpha(opacity=40); /* internet explorer */
+	-khtml-opacity: 0.4;      /* khtml, old safari */
+	-moz-opacity: 0.4;       /* mozilla, netscape */
+	opacity: 0.4;           /* fx, safari, opera */
+	z-index:0;
+	height: 200px!important;
+	margin-top: 32px!important;
+}
+
+/* Cursor to arrow over current panel, pointer for all others,
+change .current class name using plugin option, currentPanel : 'current' */
+.mb-slider .mb-panel.current {
+	cursor: auto;
+	filter: alpha(opacity=100); /* internet explorer */
+	-khtml-opacity: 1;      /* khtml, old safari */
+	-moz-opacity: 1;       /* mozilla, netscape */
+	opacity: 1;           /* fx, safari, opera */
+	z-index:1000;
+	height: 263px!important;
+	margin: 0!important;
+	cursor:pointer;
+}
+
+.mb-slider .mb-panel .mb-inside{
+	display:none;
+	top: 100px;
+}
+
+.mb-slider .mb-panel.current .mb-inside{
+	display:block;
+	top: 0!important;
+	
+}
+
+/*** Inside the panel ***/
+.mb-inside {
+	background-color:#000;
+	filter: alpha(opacity=80); /* internet explorer */
+	-khtml-opacity: 0.8;      /* khtml, old safari */
+	-moz-opacity: 0.8;       /* mozilla, netscape */
+	opacity: 0.8;           /* fx, safari, opera */
+	position:absolute;
+	width: 660px;
+	height: 80px;
+	margin-left: -105px;
+	margin-top: 190px;
+	z-index:1002;
+}
+
+.mb-inside a{
+	color:#fff;
+	font-family:"Arial";
+	letter-spacing:0;
+}
+.mb-inside h2 a{
+	font-size:20px;
+}
+.mb-inside h2{
+	margin:0 50px;
+    line-height:30px;
+}
+.mb-inside p a{
+	font-size:10.5pt;
+}
+.mb-inside p{
+	margin:0 50px;
+}
+
+.mb-inside * {
+	max-width: 120%;
+}
+
+/*** Left & Right Navigation Arrows ***/
+a.mb-scrollButtons {
+	display: block;
+	width: 100px;
+	height: 200px;
+	position: absolute;
+	visibility:hidden;
+	top: 50%;
+	margin-top: -120px; /* if you change the arrow images, you may have to adjust this (1/2 height of arrow image) */
+	cursor: pointer;
+	text-decoration: none;
+	outline: 0;
+	border: 0;
+}
+a.mb-scrollButtons.mb-left {
+	background:transparent url('/Images/arrow-left-out.png') center center no-repeat;
+	left: 0;
+	z-index:1001;
+}
+a.mb-scrollButtons.mb-right {
+	background:transparent url('/Images/arrow-right-out.png') center center no-repeat;
+	right: 0;
+	z-index:1001;
+}
+a.mb-scrollButtons.mb-left:hover {
+	background:transparent url('/Images/arrow-left-in.png') center center no-repeat;
+}
+a.mb-scrollButtons.mb-right:hover {
+	background:transparent url('/Images/arrow-right-in.png') center center no-repeat;
+}
+a.mb-scrollButtons.disabled {
+	display: none;
+}

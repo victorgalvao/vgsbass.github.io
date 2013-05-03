@@ -1,0 +1,101 @@
+/* CSS AREA - Cores e estilos pra cada área - Alexei Martchenko */
+/* JOGOS ONLINE */
+/* Cores de links */
+a, a:link, a:active, a:visited {color:#333;}
+.inter a, .inter a:link, .inter a:active, .inter a:visited {color:#f60;}
+a:hover,.inter a:hover{color:#f90;text-decoration:underline;}
+
+.inv, .inv * {color:#eee;}
+.inv a, .inv a * {color:white;}
+.inv a:hover, .inv a:hover * {color:#fd0;}
+
+#mainmenu a {text-decoration:none;}
+#mainmenu a.here {background:#f60 url('http://imagens.superdownloads.com.br/imagens/constants/abas.png') repeat-x 0 -180px; color:white; border:1px solid #f60;}
+#subheader {background-color:#f60;}
+#footer {border-top:1px solid #333; background:#f60 url('http://imagens.superdownloads.com.br/imagens/constants/footer.png') top left repeat-x;}
+
+/* Quando você quiser usar a cor default da área ou não sabe em que área está, use as classes de cor default ca0 e bga0 que elas seguem a cor da área */
+.ca0,.texto a {color:#f60!important;} .bga0 {background-color:#f60;}
+
+.caption-materia span {
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    display:block;
+}
+
+.g4 h2 {
+    margin:0;
+}
+
+#tags, #tags li {
+    padding:0;
+    margin:0;
+}
+#tags .item{
+    float:left;
+    list-style:none;
+    margin:2px 6px;
+}
+#tags .titulo{
+    display:block;
+    clear:left;
+    margin:4px 0 0 0;
+}
+
+
+#carousel_inner {
+    float:left; /* important for inline positioning */
+    width:555px; /* important (this width = width of list item(including margin) * items shown */
+    overflow: hidden;  /* important (hide the items outside the div) */
+}
+#carousel_ul {
+    position:relative;
+    left:-290px; /* important (this should be negative number of list items width(including margin) */
+    list-style-type: none; /* removing the default styling for unordered list items */
+    margin: 0px;
+    padding: 0px;
+    width:9999px; /* important */
+    padding-bottom:10px;/* non-important styling bellow */
+}
+#carousel_ul li.carousel{
+    float: left; /* important for inline positioning of the list items */
+    width:560px !important;  /* fixed width, important */
+    /* just styling bellow*/
+    padding:0px;
+    height:200px;
+    /*background: #000000;*/
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+#carousel_ul li.carousel img {
+    /* styling */
+    cursor:pointer;
+    cursor: pointer;
+    border:0px;
+}
+#left_scroll, #right_scroll{
+    float:left;
+    height:130px;
+    width:15px;
+    /*background: #C0C0C0;*/
+}
+#left_scroll img, #right_scroll img{
+    border:0; /* remove the default border of linked image */
+    /*styling*/
+    cursor: pointer;
+}
+
+.imgHowtoPlay{float:left;display:inline;margin:0 0 20px}
+.boxGamesTitleExtra{color:#e86225}
+.moreGames{padding:15px 20px 0 20px;position:relative;overflow:hidden;margin-bottom:-20px}
+.moreGames p.intros{padding:15px 20px 10px 20px;font-size:20px}
+.buttonLateral{margin-top:650%}
+li.carousel ul{padding:0;overflow:hidden;height:200px}
+li.carousel ul li{float:left;width:265px;height:100px;overflow:hidden;margin-left:0}
+li.carousel ul li a img.thumb48{float:left;border:4px #262626 solid}
+li.carousel ul li div{float:right;width:200px}
+li.carousel ul li div h4 a{font-size:14px;color:#e86225}
+li.carousel ul li div p{font-size:11px;line-height:1.2em}

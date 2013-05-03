@@ -1,0 +1,330 @@
+body {background:#f0f0f0 url('http://imagens.superdownloads.com.br/imagens/bginternal.jpg') repeat-y left; margin:0px;}
+.l{text-decoration: underline;}
+form {margin:0;}
+.f2 {
+text-align:center;
+}
+th {text-align:left;}
+body, tr, table, td, div, li, form, input, textarea, option {
+	font-family : tahoma,verdana,arial,helvetica,sans;
+	font-size : 13px;
+	line-height : 16px;
+	letter-spacing : 0px;
+}
+
+.txt {
+	font-size : 13px;
+	line-height : 16px;
+	letter-spacing : 0px;
+}
+
+.txt2 {
+	font-size : 15px;
+	line-height : 18px;
+	letter-spacing : 0px;
+}
+
+.peq, table.adminsimple td, div.vtvoid, a.vtsubtitulo, div.adminpanel, table.admin th, div.dtqsecbox, div.adminmenusep {
+	font-size : 11px;
+	line-height : 14px;
+	letter-spacing : 0px;
+}
+
+.warn {color:red;font-weight:bold;}
+
+.awarn {color:#CC0000;}
+.awarn:hover {color:red;}
+
+#mainadmindiv {margin:10px}
+a {color:#0033cc;text-decoration:none}
+a:hover {color:blue;text-decoration:none}
+
+a.tipook {color:green;}
+a.tipook:hover {color:#6c0;}
+a.tipobad {color:red;}
+a.tipobad:hover {color:#f99;}
+
+.admintitle, .adminsubtitle {background:#0066ff url('http://imagens.superdownloads.com.br/imagens/bgheadinternal.jpg') repeat-y left; font-family:"trebuchet ms",tahoma;padding:5px;font-size:13px;font-weight:bold;text-transform:uppercase;color:#666666;letter-spacing:0px;color:#eeeeee;}
+.admintitle a, .adminsubtitle a {font-family:"trebuchet ms",tahoma;color:gold;}
+.admintitle a:hover, .adminsubtitle a:hover {font-family:"trebuchet ms",tahoma;color:white;}
+.adminsubtitle {font-size:12px;padding:4px 5px 4px 5px;}
+div.adminmenusep {margin:0;padding:3px 5px 5px 6px;border-top:1px solid #f5f5f5;border-bottom:1px solid #bbb;color:#444;}
+
+.redirectreturn {font-family:"trebuchet ms",tahoma;padding:5px;font-size:13px;font-weight:bold;text-transform:uppercase;color:#666666;letter-spacing:0px;color:#ddddff;}
+
+/* Cores para links e textos */
+.cinza {color:#666;}
+.cinzaclaro {color:#ccc;}
+.verde {color:#390;}
+.azul {color:#06f;}
+.azulclaro {color:#4b95e5;}
+.vermelho {color:red;}
+.laranja {color:#f90}
+
+.padthin {padding:5px;}
+.smallcaption {color:#444444;padding-bottom:6px;padding-top:5px;padding-left:9px;padding-right:9px;}
+
+
+.actionbutton, .actionbutton:hover {font:8px/8px tahoma,arial,helvetica,sans;text-transform:uppercase;padding:0px 3px 1px 2px;border-top:1px solid #eeeeee;border-right:1px solid #999999;border-bottom:1px solid #999999;border-left:1px solid #eeeeee;background-color:#dddddd;margin-right:2px;text-align:left;line-height:15px;}
+.actionbutton:active {font:8px/8px tahoma,arial,helvetica,sans;text-transform:uppercase;padding:1px 2px 0px 3px;border-top:1px solid #999999;border-right:1px solid #eeeeee;border-bottom:1px solid #eeeeee;border-left:1px solid #999999;background-color:#cccccc;margin-right:2px;text-align:left;line-height:15px;}
+.actionbuttonbig, .actionbuttonbig:hover {font:11px/10px tahoma,arial,helvetica,sans;text-transform:uppercase;padding:1px 3px 2px 2px;border-top:1px solid #eeeeee;border-right:1px solid #999999;border-bottom:1px solid #999999;border-left:1px solid #eeeeee;background-color:#dddddd;margin-right:2px;}
+.actionbuttonbig:active {font:11px/10px tahoma,arial,helvetica,sans;text-transform:uppercase;padding:2px 2px 1px 3px;border-top:1px solid #999999;border-right:1px solid #eeeeee;border-bottom:1px solid #eeeeee;border-left:1px solid #999999;background-color:#cccccc;margin-right:2px;}
+
+
+input.text, select {width:295px;margin-bottom:3px;}
+input.peq {padding:1px 3px 1px 3px;}
+option {color:black;background-color:white;font-style:normal;}
+optgroup {font-style:normal;color:gray;background-color:#f5f5f5}
+
+.root {font-style:normal;color:red;background-color:#f5f5f5}
+
+
+ul, ol {margin-top:4px;margin-bottom:4px;}
+ul li {list-style-image: url(http://imagens.superdownloads.com.br/imagens/constants/ico/bull.list.blank.png); margin: 0px 0px 0px -12px;}
+ol li {margin: 0px 0px 0px -12px;}
+
+.hilite {background-color:yellow;color:black;}
+
+.iconsel, .iconpresel, .iconnotsel, .icongraysel {font:bold 8px/10px tahoma,arial,helvetica,sans;text-transform:uppercase;cursor:pointer;}
+.iconsel {background-color:white;padding:3px;margin:0px;border:1px solid white;}
+.iconsel:hover {background-color:#ced6ff;padding:3px;margin:0px;border:1px solid #0066ff;}
+.iconpresel {background-color:#ccffcc;padding:3px;margin:0px;border:1px solid green;}
+.iconnotsel {background-color:#ffe6e6;padding:3px;margin:0px;border:1px solid red;color:red;}
+.icongraysel {background-color:#fafafa;padding:3px;margin:0px;border:1px solid #cacaca;color:#cacaca;}
+
+table.admin, table.adminsimple {border-top:2px solid blue;border-right:1px solid #999999;border-bottom:2px solid blue;border-left:1px solid #999999;background-color:white;}
+table.admin th, table.adminsimple th {padding:3px 4px 3px 4px;background-color:#ccf;border-bottom:1px solid #aae}
+table.admin td {border-top:1px solid #CCCCCC;padding:2px 4px 2px 4px;}
+table.adminsimple {width:100%;}
+table.adminsimple td {padding:1px 4px 1px 4px;}
+
+div.destacaoa50porcento {padding:5px;background-color:#069;}
+div.destacaoa50porcento div.destacaobox {width:150px;margin:0;}
+div.destacaoa50porcento div.destacaobox img.destacao {width:150px;height:65px;}
+div.destacaoa50porcento div.destacaobox a {color:#e1e1ea;display:block;}
+div.destacaoa50porcento div.destacaobox a.destacaosub {font:7px/9px tahoma}
+div.destacaoa50porcento div.destacaobox a.big, div.destacaoa50porcento div.destacaobox a.big:hover {padding:2px 1px 1px 0;font-size:13px;font-weight:bold;line-height:15px;letter-spacing:-1px;font-family:arial,helvetica,sans;}
+div.destacaoa50porcento div.destacaobox a:hover {color:white;}
+div[class~='vtcellporcododestacao'] {width:150px;margin:0;}
+
+.mceSelectList { width:100px; }
+
+td.direita {text-align:right;}
+
+/* Reset code to remove theme inherent styling */
+.dcjq-mega-menu ul.menu ul, .dcjq-mega-menu ul.menu li {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.dcjq-mega-menu ul.menu ul {
+display: none; /* Hides non-mega links */
+}
+.dcjq-mega-menu ul.menu .sub ul {
+display: block; /* overrides above hide */
+}
+
+/* Main menu styles */
+.dcjq-mega-menu ul.menu {
+background: #222 url(http://imagens.superdownloads.com.br/Images/bg_black.png) repeat-x 0 -80px;
+width: 100%;
+height: 40px;
+border-right: 1px solid #1B1B1B;
+border-left: 1px solid #1B1B1B;
+position: relative; /* Important - required for positioning of mega menu */
+font: normal 13px Arial, sans-serif;
+line-height: 16px;
+}
+.dcjq-mega-menu ul.menu li {
+float: left;
+font-weight: bold;
+}
+.dcjq-mega-menu ul.menu li a {
+float: left;
+display: block;
+padding: 12px 25px;
+background: url(http://imagens.superdownloads.com.br/Images/bg_black.png) repeat-x 100% 0;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+text-decoration: none;
+}
+.dcjq-mega-menu ul.menu li.mega-hover a, .dcjq-mega-menu ul.menu li a:hover {
+background-position: 100% -40px;
+color: #000;
+text-shadow: none;
+}
+
+/* Arrow tag for parent links */
+.dcjq-mega-menu ul.menu li a.dc-mega {
+padding-right: 38px; /* Additional padding for arrow */
+position: relative; /* Required for arrow positioning */
+}
+.dcjq-mega-menu ul.menu li a .dc-mega-icon {
+display: block;
+position: absolute;
+top: 18px;
+right: 15px;
+width: 8px;
+height: 6px;
+background: url(http://imagens.superdownloads.com.br/Images/arrow.png) no-repeat 0 0;
+}
+.dcjq-mega-menu ul.menu li.mega-hover a .dc-mega-icon {
+background-position: 0 100%;
+}
+
+/* Mega Menu Styling */
+/* Mega Drop Down Container */
+.dcjq-mega-menu ul.menu li .sub-container {
+position: absolute; /* Required */
+background: url(http://imagens.superdownloads.com.br/Images/bg_sub_left.png) no-repeat 0 100%;
+padding-left: 10px;
+margin-left: -3px;
+}
+.dcjq-mega-menu ul.menu li .sub {
+background: url(http://imagens.superdownloads.com.br/Images/bg_sub.png) no-repeat 100% 100%;
+padding: 20px 20px 20px 10px;
+}
+.dcjq-mega-menu ul.menu li .sub-container.mega .sub {
+padding: 20px 10px 0 0;
+}
+.dcjq-mega-menu ul.menu li .sub .row { /* Clear the sub-menu floats */
+width: 100%;
+overflow: hidden;
+clear: both;
+}
+.dcjq-mega-menu ul.menu li .sub li {
+float: none;
+font-size: 1em;
+font-weight: bold;
+}
+/* Sub-menu Headers */
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr { /* Sub-menu headers - i.e. 2nd level navigation */
+float: left; /* Float the sub-menus and give them a fixed width to from the mega menu rows */
+width: 260px;
+margin: 0 10px 20px 10px;
+border: 1px solid #ccc;
+}
+.dcjq-mega-menu ul.menu li .sub a { /* Clear the styles from the top-level links and set the font styles */
+background: none;
+border: none;
+text-shadow: none;
+color: #111;
+padding: 7px 10px;
+display: block;
+float: none;
+text-decoration: none;
+font-size: 0.9em;
+}
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr a.mega-hdr-a {
+padding: 7px 10px;
+margin-bottom: 5px;
+border-bottom: 1px solid #ccc;
+text-transform: uppercase;
+font-weight: bold;
+color: #000;
+background: #EAEAEA url(http://imagens.superdownloads.com.br/Images/bg_hdr.png) repeat-x center center;
+}
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+color: #000;
+text-shadow: none;
+}
+
+
+/* Add the individual sub-menu backgrounds */
+.dcjq-mega-menu ul.menu li .sub li#menu-item-1 {
+background: url(http://imagens.superdownloads.com.br/Images/bg_coupe.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-2 {
+background: url(http://imagens.superdownloads.com.br/Images/bg_sedan.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-3 {
+background: url(http://imagens.superdownloads.com.br/Images/bg_convert.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-4 {
+background: url(http://imagens.superdownloads.com.br/Images/bg_suv.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-5 {
+background: url(http://imagens.superdownloads.com.br/Images/bg_pickup.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-6 {
+background: url(http://imagens.superdownloads.com.br/Images/bg_sports.jpg) no-repeat 135px 40px;
+}
+
+/* Style the 3rd level links */
+.dcjq-mega-menu ul.menu li .sub li ul li {
+margin-right: 90px;
+}
+.dcjq-mega-menu ul.menu .sub li.mega-hdr li a {
+color: #444;
+font-weight: normal;
+padding: 3px 0 3px 25px;
+background: url(http://imagens.superdownloads.com.br/Images/bullet.png) no-repeat 10px 8px;
+}
+.dcjq-mega-menu ul.menu .sub li.mega-hdr li a:hover {
+color: #990000;
+background-image: url(http://imagens.superdownloads.com.br/Images/bullet_on.png);
+}
+
+/* Styling for items with only 2 levels */
+.dcjq-mega-menu ul.menu li .sub-container.non-mega .sub {
+padding: 20px 20px 20px 10px;
+}
+.dcjq-mega-menu ul.menu li .sub-container.non-mega li {
+width: 190px; /* Set the drop down width */
+}
+.dcjq-mega-menu ul.menu li .sub-container.non-mega li a {
+padding: 7px 5px 7px 22px;
+background: url(http://imagens.superdownloads.com.br/Images/bullet.png) no-repeat 5px 12px;
+}
+.dcjq-mega-menu ul.menu li .sub-container.non-mega li a:hover {
+color: #990000;
+background-image: url(http://imagens.superdownloads.com.br/Images/bullet_on.png);
+}
+
+input, select {
+    width:auto!important;
+    display:inline!important;
+}
+
+#Filtro #Idchamada, #Filtro #qtd{
+    width:65px!important;
+}
+
+.movingBoxes {
+    z-index: 0;
+}
+
+.cor-jogos-online {
+    background-color:#F60;
+}
+.cor-windows {
+    background-color:#069;
+    color:#fff;
+}
+.cor-linux {
+    background-color:#060;
+    color:#fff;
+}
+.cor-mac {
+    background-color:#666;
+    color:#fff;
+}
+.cor-online {
+    background-color:#336;
+    color:#fff;
+}
+.cor-android {
+    background-color:#A2B738;
+}
+.cor-materias {
+    background-color:#069;
+    color:#fff;
+}
+.cor-desconhecida {
+    background-color:#ffe200;
+}
+
+.cor-jogos-online,.cor-windows,.cor-linux,.cor-mac,.cor-online,.cor-android,.cor-materias,.cor-desconhecida{
+    padding:2px;
+    border:2px #fff solid;
+}
