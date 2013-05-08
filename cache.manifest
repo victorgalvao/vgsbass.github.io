@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "name": "SD Soft",
+  "description": "Website de downloads",
+  "icons": {
+    "128": "/imagens/sd128.png"
+  },
+  "developer": {
+    "name": "SD Internetworks",
+    "url": "http://sdoffice.dyndns.org"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "default_locale": "en"
+}
