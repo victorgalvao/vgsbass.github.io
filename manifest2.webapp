@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "name": "Sd Soft Test 1",
+  "description": "Website de downloads",
+  "launch": "http://www.superdownloads.com.br/"
+  "icons": {
+    "128": "/Images/sd128.png"
+  },
+  "developer": {
+    "name": "SD Internetworks",
+    "url": "http://sdoffice.dyndns.org"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "default_locale": "en"
+}
