@@ -1,9 +1,10 @@
 {
   "version": "1.0",
-  "name": "SD Soft",
+  "name": "Sd Soft Test 1",
   "description": "Website de downloads",
+  "launch": "http://www.superdownloads.com.br/"
   "icons": {
-    "128": "/imagens/sd128.png"
+    "128": "/Images/sd128.png"
   },
   "developer": {
     "name": "SD Internetworks",
